@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr. Guilherme · Médico · CRM-SP 267313</title>
+<meta name="description" content="Dr. Guilherme Schumann Mendes, médico, pós-graduando em Medicina da Dor. Atendimento particular em Ibitinga e Itápolis (SP). Agende pelo WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dr. Guilherme · Médico">
+<meta property="og:description" content="Pós-graduando em Medicina da Dor. Atendimento particular em Ibitinga e Itápolis (SP).">
+<meta property="og:locale" content="pt_BR">
+<meta name="theme-color" content="#F2E3D8">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%233F6650'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='32' font-weight='800' text-anchor='middle' fill='%23FBF6F2'%3EG%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --nude: #F2E3D8;
+    --off: #FBF6F2;
+    --verde: #3F6650;
+    --verde-destaque: #4E7660;
+    --salvia: #6B8F78;
+    --salvia-claro: #DCE7DF;
+    --salvia-texto: #2E4B3D;
+    --texto: #24362D;
+    --texto-suave: #4A5C52;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--off);
+    color: var(--texto);
+    font-family: "Source Sans 3", system-ui, sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 440px; margin: 0 auto; padding: 0 20px; }
+
+  h1, h2, .assinatura {
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+    font-weight: 800;
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+  }
+
+  /* Topo */
+  .topo { background: var(--nude); padding: 40px 0 32px; border-radius: 0 0 32px 32px; }
+  .etiqueta {
+    display: inline-block;
+    background: var(--salvia-claro);
+    color: var(--salvia-texto);
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 999px;
+  }
+  .assinatura { font-size: 44px; margin-top: 20px; }
+  .nome { font-size: 16px; color: var(--texto-suave); margin-top: 6px; }
+  .cargo { font-weight: 600; margin-top: 14px; }
+  .crm { font-size: 15px; color: var(--texto-suave); }
+  .frase {
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    margin-top: 24px;
+  }
+  .frase em { font-style: normal; color: var(--verde-destaque); }
+
+  /* Botões */
+  .botoes { display: grid; gap: 12px; margin-top: 28px; }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 56px;
+    padding: 14px 22px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+    transition: transform .15s ease, opacity .15s ease;
+  }
+  .btn:active { transform: scale(.98); }
+  .btn svg { width: 20px; height: 20px; flex: none; }
+  .btn-verde { background: var(--verde); color: var(--off); }
+  .btn-claro { background: var(--off); color: var(--texto); }
+  .btn-nude { background: var(--nude); color: var(--texto); }
+  .btn-contorno { background: transparent; color: var(--verde); box-shadow: inset 0 0 0 2px var(--salvia-claro); min-height: 48px; font-size: 16px; }
+
+  /* Seções */
+  section { padding: 36px 0 4px; }
+  h2 { font-size: 26px; margin-bottom: 16px; }
+  .bloco { background: var(--nude); border-radius: 24px; padding: 22px; }
+  .bloco + .bloco { margin-top: 12px; }
+  .bloco h3 { font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-weight: 800; font-size: 19px; letter-spacing: -0.01em; }
+  .bloco .local { color: var(--texto-suave); font-size: 15px; margin: 4px 0 16px; }
+  .bloco-claro { background: var(--salvia-claro); }
+
+  ul.lista { list-style: none; display: grid; gap: 10px; margin-top: 12px; }
+  ul.lista li { position: relative; padding-left: 22px; }
+  ul.lista li::before {
+    content: ""; position: absolute; left: 0; top: .55em;
+    width: 9px; height: 9px; border-radius: 2px; background: var(--salvia);
+  }
+
+  /* Chamada */
+  .chamada { background: var(--verde); color: var(--off); border-radius: 24px; padding: 28px 22px; margin-top: 36px; }
+  .chamada h2 { margin-bottom: 8px; }
+  .chamada h2 em { font-style: normal; color: var(--nude); }
+  .chamada p { opacity: .9; margin-bottom: 20px; }
+
+  footer { padding: 32px 0 40px; text-align: center; font-size: 14px; color: var(--texto-suave); }
+  footer .assinatura { font-size: 20px; color: var(--texto); margin: 0 0 4px; }
+  footer a { text-decoration: none; font-weight: 600; color: var(--verde); }
+</style>
+</head>
+<body>
+
+<header class="topo">
+  <div class="wrap">
+    <span class="etiqueta">Ibitinga e Itápolis · SP</span>
+    <p class="assinatura">Dr. Guilherme</p>
+    <p class="nome">Guilherme Schumann Mendes</p>
+    <p class="cargo">Médico · Pós-graduando em Medicina da Dor</p>
+    <p class="crm">CRM-SP 267313</p>
+
+    <h1 class="frase">Dor que vai e volta, ou que não passa, merece ser <em>escutada com calma</em> e investigada a fundo.</h1>
+
+    <div class="botoes">
+      <a class="btn btn-verde" href="https://wa.me/5516997977833?text=Ol%C3%A1%2C%20vim%20pelo%20Instagram%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
+        Agendar consulta pelo WhatsApp
+      </a>
+      <a class="btn btn-claro" href="#onde-atendo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.1-7-11.5a7 7 0 0 1 14 0C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+        Onde eu atendo
+      </a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="onde-atendo">
+    <h2>Onde eu atendo</h2>
+
+    <div class="bloco">
+      <h3>FisioMais · Ibitinga</h3>
+      <p class="local">Rua Pereira Landim, 969, Centro</p>
+      <a class="btn btn-contorno" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Pereira+Landim%2C+969%2C+Centro%2C+Ibitinga+-+SP" target="_blank" rel="noopener">Como chegar</a>
+    </div>
+
+    <div class="bloco">
+      <h3>Clínica Renova · Itápolis</h3>
+      <p class="local">Itápolis, SP</p>
+      <a class="btn btn-contorno" href="https://www.google.com/maps/search/?api=1&amp;query=Cl%C3%ADnica+Renova+It%C3%A1polis+SP" target="_blank" rel="noopener">Como chegar</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>O que eu acompanho</h2>
+
+    <div class="bloco bloco-claro">
+      <h3>Dor</h3>
+      <ul class="lista">
+        <li>Dor na coluna, nos músculos e nas articulações</li>
+        <li>Fibromialgia</li>
+        <li>Dor de cabeça frequente</li>
+        <li>Dor na mandíbula (DTM)</li>
+      </ul>
+    </div>
+
+    <div class="bloco">
+      <h3>Saúde no dia a dia</h3>
+      <ul class="lista">
+        <li>Pressão alta</li>
+        <li>Diabetes</li>
+        <li>Colesterol alto</li>
+        <li>Apoio pra parar de fumar</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Como é a consulta</h2>
+    <ul class="lista">
+      <li>Atendimento particular. Não atendo por convênio.</li>
+      <li>Tempo pra você contar sua história, sem pressa.</li>
+      <li>Olhar pra dor e pra você como um todo, não só pro lugar que dói.</li>
+      <li>Agendamento pelo WhatsApp.</li>
+    </ul>
+  </section>
+
+  <div class="chamada">
+    <h2>Quer marcar <em>um horário?</em></h2>
+    <p>Me chama no WhatsApp e a gente encontra o melhor dia pra você.</p>
+    <a class="btn btn-nude" href="https://wa.me/5516997977833?text=Ol%C3%A1%2C%20vim%20pelo%20Instagram%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">Agende sua consulta</a>
+  </div>
+
+  <footer>
+    <p class="assinatura">Dr. Guilherme</p>
+    <p>Guilherme Schumann Mendes · Médico · CRM-SP 267313</p>
+    <p style="margin-top:10px"><a href="https://www.instagram.com/drguilhermeschumann/" target="_blank" rel="noopener">@drguilhermeschumann</a></p>
+  </footer>
+
+</main>
+</body>
+</html>
